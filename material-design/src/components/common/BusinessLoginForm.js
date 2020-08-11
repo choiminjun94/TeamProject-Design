@@ -9,7 +9,7 @@ const LeftLogin = styled.div`
   width: 530px;
   height: 800px;
   border: 0px solid;
-  transform: translate(200%, -89.9%);
+  transform: translate(130%, 10%);
 `;
 const Logo = styled.div`
   width: 550px;
@@ -62,7 +62,7 @@ export default function FormPropsTextFields() {
     <LeftLogin>
       <form className={classes.root} noValidate autoComplete="off">
         <br />
-        <Logo link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">사업자</Logo>
+        <Logo link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">사업자용</Logo>
 
         <div>
           <TextField
@@ -90,7 +90,7 @@ export default function FormPropsTextFields() {
           <Button type="submit">로그인 시발</Button>
           <Typography className={classes.root}>
             <LinkStyle2>
-            <Link href="#" onClick={preventDefault} ink href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+            <Link href="/pulicSign" onClick={preventDefault} ink href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
                 회원 가입하기
               </Link>
             </LinkStyle2>

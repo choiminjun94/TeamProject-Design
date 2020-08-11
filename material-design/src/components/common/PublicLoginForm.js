@@ -9,7 +9,7 @@ const LeftLogin = styled.div`
   width: 530px;
   height: 800px;
   border: 0px solid;
-  transform: translate(50%, 10%);
+  transform: translate(130%, 10%);
 `;
 const Logo = styled.div`
   width: 550px;
