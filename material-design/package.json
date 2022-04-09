@@ -8,7 +8,7 @@
     "@material-ui/icons": "^4.9.1",
     "@material-ui/lab": "^4.0.0-alpha.56",
     "classnames": "2.2.6",
-    "moment": "2.26.0",
+    "moment": "2.29.2",
     "node-sass": "4.14.1",
     "nouislider": "14.5.0",
     "react": "16.13.1",
